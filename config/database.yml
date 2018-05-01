@@ -31,3 +31,5 @@ production:
   database: <%= ENV['SPREE_DATABASE_PROD'] %>
   username: <%= ENV['SPREE_DATABASE_USER'] %>
   password: <%= ENV['SPREE_DATABASE_PASSWORD'] %>
+
+  #test
