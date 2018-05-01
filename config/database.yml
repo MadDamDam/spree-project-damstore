@@ -31,11 +31,3 @@ production:
   database: <%= ENV['SPREE_DATABASE_PROD'] %>
   username: <%= ENV['SPREE_DATABASE_USER'] %>
   password: <%= ENV['SPREE_DATABASE_PASSWORD'] %>
-
-prodamdam:
-  <<: *default
-  adapter: mysql2
-  host: <%= ENV['SPREE_DATABASE_URL'] %>
-  database: <%= ENV['SPREE_DATABASE_PROD'] %>
-  username: <%= ENV['SPREE_DATABASE_USER'] %>
-  password: <%= ENV['SPREE_DATABASE_PASSWORD'] %>
