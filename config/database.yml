@@ -32,4 +32,4 @@ production:
   username: <%= ENV['SPREE_DATABASE_USER'] %>
   password: <%= ENV['SPREE_DATABASE_PASSWORD'] %>
 
-  #test5
+  #test6
